@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Web.Http;
 
-namespace NiceHash
+namespace API
 {
     public class NiceHash
     {
