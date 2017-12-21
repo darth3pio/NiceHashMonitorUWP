@@ -55,10 +55,29 @@ namespace API
         public List<Stat> stats { get; set; }
 
         [DataMember]
-        public List<Payment> payments { get; set; }
+        //public List<Payment> payments { get; set; }
+        public List<object> payments { get; set; }
 
         [DataMember]
         public string addr { get; set; }
+
+        [DataMember]
+        public List<object> current { get; set; }
+
+        [DataMember]
+        public bool nh_wallet { get; set; }
+
+        [DataMember]
+        public int attack_written_off { get; set; }
+
+        [DataMember]
+        public List<object> past { get; set; }
+
+        [DataMember]
+        public string attack_amount { get; set; }
+
+        [DataMember]
+        public string attack_paid { get; set; }
     }
 
     [DataContract]
